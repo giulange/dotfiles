@@ -138,3 +138,26 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
+# GIULIANO ALIASES
+alias gpu-pedology='ssh giuliano@143.225.214.136'
+alias gpu-pedology-x='ssh -X giuliano@143.225.214.136'
+alias soil-sealing-webGIS='ssh geosolutions@143.225.214.136'
+alias biolilligrid='ssh -X langella@lilligridbio.na.iac.cnr.it'
+alias lilligrid='ssh -X langella@lilligrid.na.iac.cnr.it'
+alias ll='ls -alFG'
+alias clifeproj='ftp ftp://myLIFE:life2010@143.225.58.142'
+alias cartlinux='ftp ftp://giuly:giu@143.225.58.142'
+alias aries_maps='sftp luigi:12Me250mlBDF@95.110.192.55:/home/html/life/raster/Clima/mappe'
+alias ss-vm='ssh geosolutions@143.225.214.143'
+alias ftp-pedology='ssh giuliano@143.225.214.133'
+alias ftp-pedology-x='ssh -X giuliano@143.225.214.133'
+alias 1rpi='ssh pi@192.168.1.234'
+alias 0rpi='ssh pi@192.168.0.234'
+alias rrpi='ssh -p2022 pi@rpi-giuliano.noip.me'
+alias aws-startup='ssh -i /Users/giuliano/Downloads/coursera-startup_engineering/coursera-startup-engineering__t2micro.pem ubuntu@ec2-52-24-40-172.us-west-2.compute.amazonaws.com'
+alias marco-php='ssh marco-php:4set2000@143.225.214.136'
+alias aws-webapps='ssh -i /Users/giuliano/Downloads/startup-webapps.pem ubuntu@ec2-52-27-169-30.us-west-2.compute.amazonaws.com'
+alias ftp-waspmote='ftp 52.24.40.172'
+
+
