@@ -160,5 +160,6 @@ alias marco-php='ssh marco-php:4set2000@143.225.214.136'
 alias aws-webapps='ssh -i /Users/giuliano/Downloads/startup-webapps.pem ubuntu@ec2-52-27-169-30.us-west-2.compute.amazonaws.com'
 alias ftp-waspmote='ftp 52.24.40.172'
 alias rasdaman-ssh='ssh -p2222 rasdaman:rasdaman@143.225.214.136'
+alias climedb-ssh='ssh -p3322 giuliano@143.225.214.136'
 
 
